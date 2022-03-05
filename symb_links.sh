@@ -8,6 +8,6 @@ ln -s ~/.dotfiles/fish ~/.config/fish
 
 
 # install
-pacman -S alacritty fish 
-
+pacman -S alacritty fish lvim
+abricotine
 
