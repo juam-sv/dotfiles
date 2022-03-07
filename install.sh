@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #abricotine themes
-git clone git clone https://github.com/dracula/abricotine.git /tmp
+git clone https://github.com/dracula/abricotine.git /tmp/abricotine
 mv /tmp/abricotine/dracula ~/.config/Abricotine/app/themes
 
 # install arch packages
@@ -21,7 +21,8 @@ qemu kvm libvirt vagrant
 
 #dev
 
-
+#change user shell
+chsh -s /usr/bin/fish $USER
 
 
 
