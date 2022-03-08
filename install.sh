@@ -18,12 +18,17 @@ sudo pacman -S alacritty \
 
 #virtualization
 qemu kvm libvirt vagrant virt-manager 
-
+remmina
 #dev
 <<<<<<< HEAD
 visual-studio-code-bin 
 
 =======
+#lunarvim install 
+#requiriments
+#git yarn npm rust build-essential
+
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 
 #change user shell
 chsh -s /usr/bin/fish $USER
