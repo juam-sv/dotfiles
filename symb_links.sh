@@ -7,6 +7,7 @@ rm ~/.config/Abricotine/app/config.json
 rm -rf ~/.config/alacritty #&& mkdir ~/.config/alacritty
 rm -rf ~/.config/fish
 rm -rf ~/.config/remmina
+rm -rf ~/.config/omf
 
 ### Setup dos dotfiles
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
@@ -17,5 +18,6 @@ ln -s ~/.dotfiles/config/abricotine/config.json ~/.config/Abricotine/app/
 ln -s ~/.dotfiles/config/fish ~/.config
 ln -s ~/.dotfiles/config/alacritty ~/.config/
 ln -s ~/.dotfiles/config/remmina ~/.config/
+ln -s ~/.dotfiles/config/omf ~/.config/
 
 
