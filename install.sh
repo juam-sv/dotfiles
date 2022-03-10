@@ -11,7 +11,7 @@ sudo pacman -S firefox google-chrome-stable qbitorrent freedownloadmanager spoti
 sudo pacman -S discord thunderbird whatsapp-nativefier telegram 
 
 #virtualization
-sudo pacman -S qemu kvm libvirt vagrant virt-manager remmina
+sudo pacman -S qemu qemu-arch-extra kvm libvirt vagrant virt-manager remmina
 #dev
 sudo pacman -S visual-studio-code-bin 
 
@@ -28,3 +28,6 @@ mv /tmp/abricotine/dracula ~/.config/Abricotine/app/themes
 #oh my fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
+
+# add user to groups
+sudo addgroup "$(whoami)" libvirt kvm 
