@@ -1,5 +1,4 @@
 [remmina_pref]
-secret=OSo6S6rnMbDF06TlZN5oLMm629yyFioS2QTkbNQjSMk=
 datadir_path=/home/juamsv/.local/share/remmina
 remmina_file_name=%G_%P_%N_%h
 screenshot_path=/home/juamsv/Pictures
@@ -31,9 +30,9 @@ small_toolbutton=false
 view_file_mode=0
 resolutions=640x480,800x600,1024x768,1152x864,1280x960,1400x1050
 keystrokes=Send hello world§hello world\\n
-main_width=667
+main_width=727
 main_height=400
-main_maximize=true
+main_maximize=false
 main_sort_column_id=1
 main_sort_order=0
 expanded_group=
@@ -77,7 +76,6 @@ grab_color=#00ff00
 grab_color_switch=false
 vte_allow_bold_text=true
 vte_lines=512
-recent_RDP=172.16.17.177,172.18.34.187
 rdp_use_client_keymap=0
 rdp_disable_smooth_scrolling=0
 rdp_reconnect_attempts=
