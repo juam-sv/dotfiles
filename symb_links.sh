@@ -8,11 +8,14 @@ rm -rf ~/.config/alacritty #&& mkdir ~/.config/alacritty
 rm -rf ~/.config/fish
 rm -rf ~/.config/remmina
 rm -rf ~/.config/omf
+rm -rf ~/.config/haruna/
 
 ### Setup dos dotfiles
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/config/lvim/config.lua ~/.config/lvim/config.lua
-ln -s ~/.dotfiles/config/abricotine/config.json ~/.config/Abricotine/app/
+ln -s ~/.dotfiles/config/abricotine/config.json ~/.config/Abricotine/app/config.json
+ln -s ~/.dotfiles/config/haruna/haruna.conf ~/.config/haruna/haruna.conf
+
 
 #folders
 ln -s ~/.dotfiles/config/fish ~/.config
