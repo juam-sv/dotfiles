@@ -3,6 +3,7 @@
 set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+set -gx EDITOR lvim
 
 ## Export variable need for qt-theme
 if type "qtile" >> /dev/null 2>&1
@@ -36,9 +37,9 @@ end
 
 
 ## Starship prompt
-if status --is-interactive
-   source ("/usr/bin/starship" init fish --print-full-init | psub)
-end
+#if status --is-interactive
+#   source ("/usr/bin/starship" init fish --print-full-init | psub)
+#end
 
 
 ## Functions
@@ -100,7 +101,7 @@ alias lt='exa -aT --color=always --group-directories-first --icons' # tree listi
 alias l.="exa -a | egrep '^\.'"                                     # show only dotfiles
 
 # Replace some more things with better alternatives
-alias cat='bat --style header --style rules --style snip --style changes --style header'
+alias cat='bat --style full'
 [ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
 
 # Common use
@@ -153,4 +154,4 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 #if status --is-interactive
 #   neofetch
 #end
-starship init fish | source
+#starship init fish | source

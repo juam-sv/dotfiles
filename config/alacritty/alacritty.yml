@@ -18,8 +18,8 @@ window:
   # Specified in number of columns/lines, not pixels.
   # If both are `0`, this setting is ignored.
   dimensions:
-    columns: 160
-    lines: 48
+    columns: 100
+    lines: 45
   # dimensions:
   #   columns: 100
   #   lines: 30
@@ -2045,4 +2045,4 @@ schemes:
       cyan:    '0x00ffff'
       white:   '0xffffff'
 
-colors: *cyber_punk_neon
+colors: *tokyo-night-storm
