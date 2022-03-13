@@ -1,25 +1,35 @@
 #!/bin/bash
 
+#install yay
+sudo pacman -S yay --noconfirm
+
 # install arch packages
-sudo pacman -S alacritty fish aur/abricotine btop notion git yarn npm rust build-essential notion-app-enhanced \
-                spotify --noconfirm
+yay pacman -S alacritty community/fish aur/abricotine btop notion git \
+              yarn npm rust notion-app-enhanced unzip neovim --noconfirm 
 
 #internet
-sudo pacman -S firefox google-chrome-stable qbitorrent freedownloadmanager spotify 
+yay -S firefox google-chrome qbittorrent freedownloadmanager aur/spotify --noconfirm
 
 #social
-sudo pacman -S discord thunderbird whatsapp-nativefier telegram 
+yay -S discord thunderbird whatsapp-nativefier telegram-desktop --noconfirm
 
 #virtualization
-sudo pacman -S qemu qemu-arch-extra kvm libvirt vagrant virt-manager remmina
+yay -S --needed --noconfirm qemu dhclient openbsd-netcat virt-viewer libvirt dnsmasq dmidecode \
+  ebtables virt-install virt-manager bridge-utils remmina vagrant qemu-arch-extra \
+  virt-install
+  
 #dev
-sudo pacman -S visual-studio-code-bin 
+#yay -S visual-studio-code-bin --noconfirm
+
+#aur packages
+#yay -S nerd-fonts-fira-code haruna 
 
 #change user shell
 chsh -s /usr/bin/fish $USER
 
-#lunarvim install 
-bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+#lunarvim install
+curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh -o /tmp/install-lvim.sh
+bash /tmp/install-lvim.sh
 
 #abricotine themes
 git clone https://github.com/dracula/abricotine.git /tmp/abricotine
@@ -30,4 +40,4 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 
 
 # add user to groups
-sudo addgroup "$(whoami)" libvirt kvm 
+sudo addgroup "$(whoami)" libvirt kvm
