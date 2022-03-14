@@ -19,7 +19,7 @@ window:
   # If both are `0`, this setting is ignored.
   dimensions:
     columns: 100
-    lines: 45
+    lines: 30
   # dimensions:
   #   columns: 100
   #   lines: 30
@@ -2045,4 +2045,4 @@ schemes:
       cyan:    '0x00ffff'
       white:   '0xffffff'
 
-colors: *tokyo-night-storm
+colors: *challenger_deep

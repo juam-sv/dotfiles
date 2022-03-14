@@ -46,7 +46,7 @@
       "exec": "pandoc -s %inputFilepath% -o %outputFilepath%"
     }
   ],
-  "theme": "dracula",
+  "theme": "default-dark",
   "window": {
     "showMenuBar": true
   }
