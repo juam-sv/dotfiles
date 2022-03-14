@@ -5,7 +5,8 @@ sudo pacman -S yay --noconfirm
 
 # install arch packages
 yay pacman -S alacritty community/fish aur/abricotine btop notion git \
-              yarn npm rust notion-app-enhanced unzip neovim --noconfirm 
+              yarn npm rust notion-app-enhanced unzip neovim ulauncher \
+              veracrypt --noconfirm 
 
 #internet
 yay -S firefox google-chrome qbittorrent freedownloadmanager aur/spotify --noconfirm
@@ -22,7 +23,7 @@ yay -S --needed --noconfirm qemu dhclient openbsd-netcat virt-viewer libvirt dns
 #yay -S visual-studio-code-bin --noconfirm
 
 #aur packages
-#yay -S nerd-fonts-fira-code haruna 
+#yay -S  nerd-fonts-fira-code haruna 
 
 #change user shell
 chsh -s /usr/bin/fish $USER
