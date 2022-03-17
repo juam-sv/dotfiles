@@ -6,7 +6,7 @@ sudo pacman -S yay --noconfirm
 # install arch packages
 yay pacman -S alacritty community/fish aur/abricotine btop notion git \
               yarn npm rust notion-app-enhanced unzip neovim ulauncher \
-              veracrypt --noconfirm 
+              veracrypt tree --noconfirm 
 
 #internet
 yay -S firefox google-chrome qbittorrent freedownloadmanager aur/spotify --noconfirm
