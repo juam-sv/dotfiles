@@ -5,6 +5,7 @@ SETUVAR __done_notification_urgency_level:low
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_gc:git\x20clone
 SETUVAR _fish_abbr_gm:git\x20commit\x20\x2dm\x20\x22
+SETUVAR _fish_abbr_grepw:grep\x20\x2dv\x20\x22\x5e\x5c\x24\x5c\x7c\x23\x22
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_s:yay\x20\x2dSs
 SETUVAR _fish_abbr_si:yay\x20\x2dS
