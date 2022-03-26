@@ -4,7 +4,7 @@
 sudo pacman -S yay --noconfirm
 
 # install arch packages
-yay pacman -S alacritty community/fish aur/abricotine btop notion git \
+yay pacman -S alacritty community/fish aur/abricotine btop glances git \
               yarn npm rust notion-app-enhanced unzip neovim ulauncher \
               veracrypt tree --noconfirm 
 
@@ -42,5 +42,4 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 
 # add user to groups
 sudo addgroup "$(whoami)" libvirt kvm
-community/intel-gpu-tools
 community/intel-gpu-tools
