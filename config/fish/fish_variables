@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR __done_min_cmd_duration:10000
 SETUVAR __done_notification_urgency_level:low
-SETUVAR __fish_initialized:3100
+SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_gc:git\x20clone
 SETUVAR _fish_abbr_gm:git\x20commit\x20\x2dm\x20\x22
 SETUVAR _fish_abbr_grepw:grep\x20\x2dv\x20\x22\x5e\x5c\x24\x5c\x7c\x23\x22
@@ -39,3 +39,4 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
