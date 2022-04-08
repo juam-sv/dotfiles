@@ -4,6 +4,7 @@
 rm ~/.gitconfig
 rm ~/.config/lvim/config.lua
 rm ~/.config/Abricotine/app/config.json
+rm ~/.config/vlc/vlcrc
 rm -rf ~/.config/alacritty #&& mkdir ~/.config/alacritty
 rm -rf ~/.config/fish
 rm -rf ~/.config/remmina
@@ -15,6 +16,7 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/config/lvim/config.lua ~/.config/lvim/config.lua
 ln -s ~/.dotfiles/config/abricotine/config.json ~/.config/Abricotine/app/config.json
 ln -s ~/.dotfiles/config/haruna/haruna.conf ~/.config/haruna/haruna.conf
+ln -s ~/.dotfiles/config/vlc/vlcrc ~/.config/vlc/vlcrc
 
 #folders
 ln -s ~/.dotfiles/config/fish ~/.config
