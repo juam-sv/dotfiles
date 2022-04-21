@@ -27,7 +27,17 @@ ln -s ~/.dotfiles/config/omf ~/.config/
 #[KDE FILES SECTION]
 #remove files
 rm -rf ~/.config/plasmanotifyrc
+rm -rf ~/.config/ksmserverrc
+rm -rf ~/.config/kglobalshortcutsrc
+rm -rf ~/.config/kwinrc
+rm -rf ~/.config/kwinrulesrc
+rm -rf ~/.config/powermanagementprofilesrc
 
 #create symlinks
 ln -s ~/.dotfiles/config/kde/plasmanotifyrc ~/.config/plasmanotifyrc
+ln -s ~/.dotfiles/config/kde/ksmserverrc ~/.config/ksmserverrc
+ln -s ~/.dotfiles/config/kde/kglobalshortcutsrc ~/.config/kglobalshortcutsrc
+ln -s ~/.dotfiles/config/kde/kwinrc ~/.config/kwinrc
+ln -s ~/.dotfiles/config/kde/kwinrulesrc ~/.config/kwinrulesrc
+ln -s ~/.dotfiles/config/kde/powermanagementprofilesrc ~/.config/powermanagementprofilesrc
 

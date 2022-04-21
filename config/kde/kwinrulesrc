@@ -1,0 +1,56 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[064451bf-dc19-4f6c-8f70-1903e60d15c7]
+Description=Application settings for dolphin
+clientmachine=localhost
+desktops=\\0
+desktopsrule=3
+wmclass=dolphin
+wmclassmatch=1
+
+[1]
+Description=Application settings for spotify
+desktops=48679cee-1f44-4bb2-9292-f5e69e191ac6
+desktopsrule=3
+maximizehorizrule=3
+maximizevertrule=3
+wmclass=spotify
+wmclassmatch=1
+
+[2]
+Description=Application settings for spotify
+desktops=48679cee-1f44-4bb2-9292-f5e69e191ac6
+desktopsrule=2
+maximizehorizrule=3
+maximizevertrule=3
+wmclass=spotify
+wmclassmatch=1
+
+[4]
+Description=Application settings for notion-app-enhanced
+desktops=48679cee-1f44-4bb2-9292-f5e69e191ac6
+desktopsrule=3
+minimize=true
+wmclass=notion-app-enhanced
+wmclassmatch=1
+
+[5]
+Description=Application settings for spotify
+desktops=48679cee-1f44-4bb2-9292-f5e69e191ac6
+desktopsrule=2
+maximizehorizrule=3
+maximizevertrule=3
+wmclass=spotify
+wmclassmatch=1
+
+[7]
+Description=Application settings for whatsapp-nativefier-d40211
+desktops=48f0d42b-fea2-407e-be94-a7ff2293f180
+desktopsrule=3
+wmclass=whatsapp-nativefier-d40211
+wmclassmatch=1
+
+[General]
+count=1
+rules=1
