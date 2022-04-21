@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #deleting files
-rm ~/.gitconfig
-rm ~/.config/lvim/config.lua
-rm ~/.config/Abricotine/app/config.json
-rm ~/.config/vlc/vlcrc
+rm -rf ~/.gitconfig
+rm -rf ~/.config/lvim/config.lua
+rm -rf ~/.config/Abricotine/app/config.json
+rm -rf ~/.config/vlc/vlcrc
 rm -rf ~/.config/alacritty #&& mkdir ~/.config/alacritty
 rm -rf ~/.config/fish
 rm -rf ~/.config/remmina
@@ -24,4 +24,10 @@ ln -s ~/.dotfiles/config/alacritty ~/.config/
 ln -s ~/.dotfiles/config/remmina ~/.config/
 ln -s ~/.dotfiles/config/omf ~/.config/
 
+#[KDE FILES SECTION]
+#remove files
+rm -rf ~/.config/plasmanotifyrc
+
+#create symlinks
+ln -s ~/.dotfiles/config/kde/plasmanotifyrc ~/.config/plasmanotifyrc
 
