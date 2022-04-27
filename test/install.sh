@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #add chaotic aur
-# bash ./utils/chaotic-aur.sh
+# bash ./chaotic-aur.sh
 # pacman -Syu
 
 # install arch packages
@@ -18,12 +18,8 @@ chsh -s /usr/bin/fish $USER
 curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh -o /tmp/install-lvim.sh
 bash /tmp/install-lvim.sh
 
-#abricotine themes
-rm -rf /tmp/abricotine && git clone https://github.com/dracula/abricotine.git /tmp/abricotine
-mv /tmp/abricotine/dracula ~/.config/Abricotine/app/themes
-
 #oh my fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 # add user to groups
-# sudo usermod -a -G libvirt,kvm "$(whoami)"
+sudo usermod -a -G libvirt,kvm "$(whoami)"

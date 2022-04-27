@@ -23,10 +23,6 @@ yay -S aur/spotify aur/abricotine aur/notion-app-enhanced chaotic-aur/google-chr
 curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh -o /tmp/install-lvim.sh
 bash /tmp/install-lvim.sh
 
-#abricotine themes
-git clone https://github.com/dracula/abricotine.git /tmp/abricotine
-mv /tmp/abricotine/dracula ~/.config/Abricotine/app/themes
-
 #oh my fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
