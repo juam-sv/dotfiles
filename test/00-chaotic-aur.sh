@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -Syyuu
+pacman -Syu
 
 pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
 
