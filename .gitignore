@@ -6,4 +6,4 @@ packer_compiled.lua
 #fish
 
 #[ULAUNCHER]
-.db
+*.db
