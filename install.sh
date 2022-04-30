@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #add chaotic aur
-bash ./utils/chaotic-aur.sh
-pacman -Syu
+# bash ./utils/chaotic-aur.sh
+# pacman -Syu
 
 # install arch packages
-yay pacman -S yay community/alacritty community/fish btop glances  \
+sudo pacman -S yay community/alacritty community/fish btop glances  \
       yarn npm rust unzip neovim ulauncher \
       veracrypt tree firefox qbittorrent discord thunderbird \
       telegram-desktop community/docker community/docker-compose \
@@ -18,13 +18,6 @@ yay pacman -S yay community/alacritty community/fish btop glances  \
 yay -S aur/spotify aur/abricotine aur/notion-app-enhanced chaotic-aur/google-chrome \
       chaotic-aur/freedownloadmanager aur/whatsapp-nativefier chaotic-aur/visual-studio-code-bin 
       chaotic-aur/nerd-fonts-fira-code chaotic-aur/haruna chaotic-aur/authy
-
-#lunarvim install
-curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh -o /tmp/install-lvim.sh
-bash /tmp/install-lvim.sh
-
-#oh my fish
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 #start and enable services
 systemctl start libvirtd.service && systemctl enable libvirtd.service
