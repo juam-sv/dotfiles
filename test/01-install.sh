@@ -6,4 +6,4 @@ sudo pacman -S yay community/alacritty community/fish git \
       community/mcfly bat exa community/ttf-fira-code
 
 # from AUR and Chaotic
-yay -S chaotic-aur/nerd-fonts-fira-code 
+yay -S chaotic-aur/nerd-fonts-fira-code chaotic-aur/nerd-fonts-fantasque-sans-mono
