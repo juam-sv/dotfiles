@@ -18,6 +18,7 @@ sudo pacman -S yay community/alacritty community/fish btop glances  \
 yay -S aur/spotify aur/abricotine aur/notion-app-enhanced chaotic-aur/google-chrome \
       chaotic-aur/freedownloadmanager aur/whatsapp-nativefier chaotic-aur/visual-studio-code-bin 
       chaotic-aur/nerd-fonts-fira-code chaotic-aur/haruna chaotic-aur/authy
+      chaotic-aur/nerd-fonts-fantasque-sans-mono
 
 #start and enable services
 systemctl start libvirtd.service && systemctl enable libvirtd.service
