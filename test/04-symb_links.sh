@@ -14,6 +14,8 @@ rm -rf ~/.config/ulauncher
 rm -rf ~/.config/alacritty #&& mkdir -p ~/.config/alacritty
 rm -rf ~/.config/haruna && mkdir ~/.config/haruna
 rm -rf ~/.config/vlc  && mkdir -p ~/.config/vlc
+rm -rf ~/.config/nitrogen
+rm -rf ~/.config/polybar
 
 #symb link creation for files
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
@@ -29,6 +31,8 @@ ln -s ~/.dotfiles/config/omf ~/.config/
 ln -s ~/.dotfiles/config/btop ~/.config/
 ln -s ~/.dotfiles/config/lvim ~/.config/
 ln -s ~/.dotfiles/config/ulauncher ~/.config/
+ln -s ~/.dotfiles/config/nitrogen ~/.config/
+ln -s ~/.dotfiles/config/polybar ~/.config/
 
 #i3 setup
 rm -rf ~/.i3 
