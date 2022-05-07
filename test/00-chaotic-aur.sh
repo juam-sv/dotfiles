@@ -1,6 +1,9 @@
 #!/bin/bash
 
-pacman -Syu
+#force use as root
+pacman-mirrors --geoip
+
+pacman -Sy
 
 pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
 
