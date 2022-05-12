@@ -13,7 +13,7 @@ sudo pacman -S yay community/alacritty community/fish btop glances  \
       qemu dhclient openbsd-netcat virt-viewer libvirt dnsmasq dmidecode \
       ebtables virt-install virt-manager bridge-utils remmina vagrant qemu-arch-extra \
       virt-install community/ttf-fira-code extra/vlc git pip npm node cargo \
-      nitrogen polybar --noconfirm 
+      nitrogen polybar bat exa community/mcfly --noconfirm 
 
 # from AUR and Chaotic
 yay -S aur/spotify aur/abricotine aur/notion-app-enhanced chaotic-aur/google-chrome \
