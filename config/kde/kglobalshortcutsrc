@@ -295,11 +295,11 @@ activate entry 7=Meta+7,Meta+7,Activate Entry 7
 activate entry 8=Meta+8,Meta+8,Activate Entry 8
 activate entry 9=Meta+9,Meta+9,Activate Entry 9
 activate widget 40=Alt+F1,none,Activate Application Launcher Widget
-clear-history=none,,Clear Clipboard History
+clear-history=none,none,Clear Clipboard History
 clipboard_action=none,Ctrl+Alt+X,Enable Clipboard Actions
-cycleNextAction=none,,Next History Item
-cyclePrevAction=none,,Previous History Item
-edit_clipboard=none,,Edit Contents…
+cycleNextAction=none,none,Next History Item
+cyclePrevAction=none,none,Previous History Item
+edit_clipboard=none,none,Edit Contents…
 new instance for entry 1=none,Meta+Ctrl+1,New Instance for Entry 1
 new instance for entry 10=Meta+Ctrl+0,Meta+Ctrl+0,New Instance for Entry 10
 new instance for entry 11=Meta+Ctrl+Z,Meta+Ctrl+Z,New Instance for Entry 11
@@ -323,7 +323,7 @@ repeat_action=none,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show latte global settings=Meta+W,Meta+W,Show Latte Global Settings
 show latte view=Meta+`,Meta+`,Show Latte Dock/Panel
 show view settings=none,Meta+A,Cycle Through Dock/Panel Settings Windows
-show-barcode=none,,Show Barcode…
+show-barcode=none,none,Show Barcode…
 show-on-mouse-pos=Meta+V,Meta+V,Open Klipper at Mouse Position
 
 [mediacontrol]
