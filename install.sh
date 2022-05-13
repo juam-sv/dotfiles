@@ -10,9 +10,9 @@ sudo pacman -S yay community/alacritty community/fish btop glances  \
       veracrypt tree firefox qbittorrent discord thunderbird \
       telegram-desktop community/docker community/docker-compose \
       community/mcfly bat exa community/intel-gpu-tools \ 
-      qemu dhclient openbsd-netcat virt-viewer libvirt dnsmasq dmidecode \
+      dhclient openbsd-netcat virt-viewer libvirt dnsmasq dmidecode \
       ebtables virt-install virt-manager bridge-utils remmina vagrant qemu-arch-extra \
-      virt-install community/ttf-fira-code extra/vlc git pip npm cargo \
+      virt-install community/ttf-fira-code extra/vlc git npm cargo \
       nitrogen polybar bat exa community/mcfly gparted lightdm-settings --noconfirm 
 
 # from AUR and Chaotic
