@@ -41,6 +41,7 @@ ln -s ~/.dotfiles/config/i3 ~/.i3
 
 #i3wm personalzation
 ln -s ~/.dotfiles/config/dunst ~/.config/
+ln -s ~/.dotfiles/config/clipit ~/.config/
 
 #[KDE FILES SECTION]
 ##remove files

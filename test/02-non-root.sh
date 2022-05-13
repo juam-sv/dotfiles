@@ -8,3 +8,5 @@ bash /tmp/install-lvim.sh
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 vagrant plugin install vagrant-libvirt
+
+omf install bobthefish
