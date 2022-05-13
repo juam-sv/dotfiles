@@ -14,3 +14,4 @@ sudo cp -r /tmp/grub/catppuccin-grub-theme /usr/share/grub/themes/
 git clone https://github.com/dracula/abricotine.git /tmp/abricotine
 mv /tmp/abricotine/dracula ~/.config/Abricotine/app/themes
 
+omf install https://github.com/catppuccin/fish && exec fish

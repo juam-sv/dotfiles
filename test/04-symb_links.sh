@@ -16,6 +16,7 @@ rm -rf ~/.config/haruna && mkdir ~/.config/haruna
 rm -rf ~/.config/vlc  && mkdir -p ~/.config/vlc
 rm -rf ~/.config/nitrogen
 rm -rf ~/.config/polybar
+rm -rf ~/.config/dunst
 
 #symb link creation for files
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
@@ -37,6 +38,9 @@ ln -s ~/.dotfiles/config/polybar ~/.config/
 #i3 setup
 rm -rf ~/.i3 
 ln -s ~/.dotfiles/config/i3 ~/.i3
+
+#i3wm personalzation
+ln -s ~/.dotfiles/config/dunst ~/.config/
 
 #[KDE FILES SECTION]
 ##remove files
