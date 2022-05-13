@@ -16,7 +16,7 @@ sudo pacman -S yay community/alacritty community/fish btop glances  \
       nitrogen polybar bat exa community/mcfly gparted lightdm-settings \
       neofetch bluez bluez-utils blueman \
       pulseaudio-alsa pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack pulseaudio-lirc \
-      pulseaudio-zeroconf pasystray playerctl zscroll freerdp
+      pulseaudio-zeroconf pasystray playerctl zscroll freerdp xorg-xwininfo
 
 
 # from AUR and Chaotic
@@ -24,7 +24,7 @@ yay -S aur/spotify aur/abricotine aur/notion-app-enhanced chaotic-aur/google-chr
       chaotic-aur/freedownloadmanager aur/whatsapp-nativefier chaotic-aur/visual-studio-code-bin \
       chaotic-aur/nerd-fonts-fira-code chaotic-aur/haruna chaotic-aur/authy \
       chaotic-aur/nerd-fonts-fantasque-sans-mono aur/catppuccin-gtk-theme \
-      aur/nerd-fonts-complete
+      aur/nerd-fonts-complete aur/mconnect
 
 
 # temp

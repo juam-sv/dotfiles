@@ -218,7 +218,9 @@ for_window [class="blueman-manager"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
-for_window [class="virt-manager"] floating enable sticky enable border normal
+for_window [class="Pcmanfm"] floating enable
+for_window [class="Virt-manager"] floating enable border normal
+for_window [instance=="haruna"] floating enable border normal
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -287,6 +289,7 @@ exec --no-startup-id clipit
 exec --no-startup-id blueman-applet
 exec --no-startup-id pasystray
 exec --no-startup-id ulauncher
+exec --no-startup-id mconnect -d
 # exec_always --no-startup-id sbxkbdd
 # exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
