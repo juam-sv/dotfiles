@@ -4,7 +4,53 @@ set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set -gx EDITOR lvim
+set -gx BROWSER firefox
 #set -Ux FZF_DEFAULT_OPTS "--color=bg+:#302D41,bg:#1E1E2E,spinner:#F8BD96,hl:#F28FAD --color=fg:#D9E0EE,header:#F28FAD,info:#DDB6F2,pointer:#F8BD96 --color=marker:#F8BD96,fg+:#F2CDCD,prompt:#DDB6F2,hl+:#F28FAD
+
+#theme configs
+set -g theme_display_git yes
+set -g theme_display_git_dirty yes
+set -g theme_display_git_untracked yes
+set -g theme_display_git_ahead_verbose yes
+set -g theme_display_git_dirty_verbose yes
+set -g theme_display_git_stashed_verbose yes
+set -g theme_display_git_default_branch yes
+set -g theme_git_default_branches master main
+set -g theme_git_worktree_support yes
+set -g theme_use_abbreviated_branch_name yes
+set -g theme_display_vagrant yes
+set -g theme_display_docker_machine yes
+set -g theme_display_k8s_context yes
+set -g theme_display_hg yes
+set -g theme_display_virtualenv yes
+set -g theme_display_nix no
+set -g theme_display_ruby no
+set -g theme_display_node yes
+set -g theme_display_user ssh
+set -g theme_display_hostname ssh
+set -g theme_display_vi yes
+set -g theme_display_date yes
+set -g theme_display_cmd_duration yes
+set -g theme_title_display_process yes
+set -g theme_title_display_path yes
+set -g theme_title_display_user yes
+set -g theme_title_use_abbreviated_path yes
+set -g theme_date_format "+%a %H:%M"
+set -g theme_date_timezone America/Belem
+set -g theme_avoid_ambiguous_glyphs yes
+set -g theme_powerline_fonts no
+set -g theme_nerd_fonts yes
+set -g theme_show_exit_status yes
+set -g theme_display_jobs_verbose yes
+set -g default_user juamsv
+set -g theme_color_scheme terminal-dark
+set -g fish_prompt_pwd_dir_length 0
+set -g theme_project_dir_length 1
+set -g theme_newline_cursor yes
+set -g theme_newline_prompt '$ '
+
+#end
+
 
 ## Export variable need for qt-theme
 if type "qtile" >> /dev/null 2>&1
@@ -114,7 +160,7 @@ alias wget='wget -c '
 alias rmpkg="sudo pacman -Rdd"
 alias psmem='ps auxf | sort -nr -k 4'
 alias psmem10='ps auxf | sort -nr -k 4 | head -10'
-alias upd='/usr/bin/update'
+alias upd='/usr/bin/pacman -Syyuu'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -128,6 +174,8 @@ alias egrep='egrep --color=auto'
 alias hw='hwinfo --short'                                   # Hardware Info
 alias big="expac -H M '%m\t%n' | sort -h | nl"              # Sort installed packages according to size in MB
 alias gitpkg='pacman -Q | grep -i "\-git" | wc -l'			# List amount of -git packages
+alias yay='yay --color always'
+alias pacman='pacman --color always'
 
 # Get fastest mirrors 
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist" 
