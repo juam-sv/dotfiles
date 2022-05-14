@@ -17,6 +17,7 @@ rm -rf ~/.config/vlc  && mkdir -p ~/.config/vlc
 rm -rf ~/.config/nitrogen
 rm -rf ~/.config/polybar
 rm -rf ~/.config/dunst
+rm -rf ~/.config/clipit
 
 #symb link creation for files
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
