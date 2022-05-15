@@ -16,7 +16,8 @@ sudo pacman -S yay community/alacritty community/fish btop glances  \
       nitrogen polybar bat exa community/mcfly gparted lightdm-settings \
       neofetch bluez bluez-utils blueman \
       pulseaudio-alsa pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack pulseaudio-lirc \
-      pulseaudio-zeroconf pasystray playerctl zscroll freerdp xorg-xwininfo thunar duf gdu
+      pulseaudio-zeroconf pasystray playerctl zscroll freerdp xorg-xwininfo \
+      thunar tumbler thunar-archive-plugin thunar-volman duf gdu
 
 
 # from AUR and Chaotic

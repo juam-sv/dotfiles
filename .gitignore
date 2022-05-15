@@ -2,8 +2,19 @@
 #lvim files
 packer_compiled.lua
 
-
-#fish
-
+# fish shell
+fishd.*
+fish/config.fish.backup
+.config/fish/fish_history
+fish/fish_history
+fish/fish_variables
 #[ULAUNCHER]
 *.db
+
+# working files
+.vim/viminfo
+.vim/swaps/*
+.vim/undo
+
+# Compiled Python files
+*.pyc

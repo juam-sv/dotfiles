@@ -3,6 +3,7 @@
 #deleting files
 rm -rf ~/.gitconfig
 rm -rf ~/.config/Abricotine/app/config.json
+rm -rf ~/.config/mimeapps.list
 # rm -rf ~/.config/remmina
 
 # deleting folders
@@ -24,6 +25,7 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/config/abricotine/config.json ~/.config/Abricotine/app/config.json
 ln -s ~/.dotfiles/config/haruna/haruna.conf ~/.config/haruna/haruna.conf
 ln -s ~/.dotfiles/config/vlc/vlcrc ~/.config/vlc/vlcrc
+ln -s ~/.dotfiles/config/mimeapps.list ~/.config/mimeapps.list
 
 #symb link creation for folders
 ln -s ~/.dotfiles/config/fish ~/.config
