@@ -203,3 +203,4 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 #   neofetch
 #end
 #starship init fish | source
+fish_add_path /home/juamsv/.spicetify

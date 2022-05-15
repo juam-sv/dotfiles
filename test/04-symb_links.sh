@@ -4,6 +4,8 @@
 rm -rf ~/.gitconfig
 rm -rf ~/.config/Abricotine/app/config.json
 rm -rf ~/.config/mimeapps.list
+rm -rf ~/.redshiftgrc
+rm -rf ~/.notion-enhancer
 # rm -rf ~/.config/remmina
 
 # deleting folders
@@ -19,6 +21,7 @@ rm -rf ~/.config/nitrogen
 rm -rf ~/.config/polybar
 rm -rf ~/.config/dunst
 rm -rf ~/.config/clipit
+rm -rf ~/.config/xfce4
 
 #symb link creation for files
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
@@ -26,6 +29,8 @@ ln -s ~/.dotfiles/config/abricotine/config.json ~/.config/Abricotine/app/config.
 ln -s ~/.dotfiles/config/haruna/haruna.conf ~/.config/haruna/haruna.conf
 ln -s ~/.dotfiles/config/vlc/vlcrc ~/.config/vlc/vlcrc
 ln -s ~/.dotfiles/config/mimeapps.list ~/.config/mimeapps.list
+ln -s ~/.dotfiles/config/.redshiftgrc ~/.redshiftgrc
+ln -s ~/.dotfiles/.notion-enhancer ~/.notion-enhancer
 
 #symb link creation for folders
 ln -s ~/.dotfiles/config/fish ~/.config
@@ -37,6 +42,7 @@ ln -s ~/.dotfiles/config/lvim ~/.config/
 ln -s ~/.dotfiles/config/ulauncher ~/.config/
 ln -s ~/.dotfiles/config/nitrogen ~/.config/
 ln -s ~/.dotfiles/config/polybar ~/.config/
+ln -s ~/.dotfiles/config/xfce4 ~/.config/
 
 #i3 setup
 rm -rf ~/.i3 

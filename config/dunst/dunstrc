@@ -1,8 +1,6 @@
 frame_color = "#96CDFB"
 separator_color= frame
 
-
-
 # See dunst(5) for all configuration options
 
 [global]
@@ -116,7 +114,7 @@ separator_color= frame
 
     ### Text ###
 
-    font = Monospace 8
+    font = Monospace 9
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -294,21 +292,19 @@ separator_color= frame
     per_monitor_dpi = false
 
 
+
 [urgency_low]
-    background = "#1E1E2E"
-    foreground = "#D9E0EE"
-    timeout = 10
+background = "#1E1E2E"
+foreground = "#D9E0EE"
 
 [urgency_normal]
-    background = "#1E1E2E"
-    foreground = "#D9E0EE"
-    timeout = 10
+background = "#1E1E2E"
+foreground = "#D9E0EE"
 
 [urgency_critical]
-    background = "#1E1E2E"
-    foreground = "#D9E0EE"
-    frame_color = "#F8BD96"
-    timeout = 0
+background = "#1E1E2E"
+foreground = "#D9E0EE"
+frame_color = "#F8BD96"
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
