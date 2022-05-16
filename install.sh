@@ -11,13 +11,13 @@ sudo pacman -S yay community/alacritty community/fish btop glances  \
       telegram-desktop community/docker community/docker-compose \
       community/mcfly bat exa community/intel-gpu-tools \
       dhclient openbsd-netcat virt-viewer libvirt dnsmasq dmidecode \
-      ebtables virt-install virt-manager bridge-utils remmina vagrant qemu-arch-extra \
+      ebtables virt-install virt-manager bridge-utils remmina vagrant qemu-arch-extra qemu-img virtualbox \
       virt-install ttf-fira-code extra/vlc git npm cargo \
       nitrogen polybar bat exa community/mcfly gparted lightdm-settings \
       neofetch bluez bluez-utils blueman \
       pulseaudio-alsa pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack pulseaudio-lirc \
       pulseaudio-zeroconf pasystray playerctl zscroll freerdp xorg-xwininfo \
-      thunar tumbler thunar-archive-plugin thunar-volman duf gdu
+      thunar tumbler thunar-archive-plugin thunar-volman duf gdu ansible
 
 
 # from AUR and Chaotic
@@ -28,7 +28,8 @@ yay -S aur/spotify aur/abricotine aur/notion-app-enhanced chaotic-aur/google-chr
       aur/nerd-fonts-complete aur/mconnect redshiftgui-bin aur/catppuccin-grub-theme-git \
 
 
-#sudo grub-mkconfig -o /boot/grub/grub.cfg
+#sudo grub-mkconfig -o /boot/grub/grub.cfg 
+#linux-header
 # temp
 # extra/manjaro-pipewire
 
