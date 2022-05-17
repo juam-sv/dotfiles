@@ -11,7 +11,7 @@ sudo pacman -S yay community/alacritty community/fish btop glances  \
       telegram-desktop community/docker community/docker-compose \
       community/mcfly bat exa community/intel-gpu-tools \
       dhclient openbsd-netcat virt-viewer libvirt dnsmasq dmidecode \
-      ebtables virt-install virt-manager bridge-utils remmina vagrant qemu-arch-extra qemu-img\
+      ebtables virt-install virt-manager bridge-utils remmina vagrant qemu-arch-extra qemu-img virtualbox \
       virt-install ttf-fira-code extra/vlc git npm cargo \
       nitrogen polybar bat exa community/mcfly gparted lightdm-settings \
       neofetch bluez bluez-utils blueman \
@@ -26,7 +26,6 @@ yay -S aur/spotify aur/abricotine aur/notion-app-enhanced chaotic-aur/google-chr
       chaotic-aur/nerd-fonts-fira-code chaotic-aur/haruna chaotic-aur/authy \
       chaotic-aur/nerd-fonts-fantasque-sans-mono aur/catppuccin-gtk-theme \
       aur/nerd-fonts-complete aur/mconnect redshiftgui-bin aur/catppuccin-grub-theme-git \
-
 
 #sudo grub-mkconfig -o /boot/grub/grub.cfg
 #linux header virtual
