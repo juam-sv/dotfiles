@@ -1,4 +1,9 @@
-!#/bin/sh
+#!/usr/bin/env sh
 
+# Terminate already running bar instances
 killall -q polybar
-polybar mybar
+
+# Wait until the processes have been shut down
+while pgrep -x polybar >/dev/null; do sleep 1; done
+
+polybar main &
