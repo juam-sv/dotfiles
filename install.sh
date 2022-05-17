@@ -27,9 +27,8 @@ yay -S aur/spotify aur/abricotine aur/notion-app-enhanced chaotic-aur/google-chr
       chaotic-aur/nerd-fonts-fantasque-sans-mono aur/catppuccin-gtk-theme \
       aur/nerd-fonts-complete aur/mconnect redshiftgui-bin aur/catppuccin-grub-theme-git \
 
-
-#sudo grub-mkconfig -o /boot/grub/grub.cfg 
-#linux-header
+#sudo grub-mkconfig -o /boot/grub/grub.cfg
+#linux header virtual
 # temp
 # extra/manjaro-pipewire
 
