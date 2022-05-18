@@ -22,6 +22,7 @@ rm -rf ~/.config/polybar
 rm -rf ~/.config/dunst
 rm -rf ~/.config/clipit
 rm -rf ~/.config/xfce4
+rm -rf ~/.config/libvirt
 
 #symb link creation for files
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
@@ -43,6 +44,7 @@ ln -s ~/.dotfiles/config/ulauncher ~/.config/
 ln -s ~/.dotfiles/config/nitrogen ~/.config/
 ln -s ~/.dotfiles/config/polybar ~/.config/
 ln -s ~/.dotfiles/config/xfce4 ~/.config/
+ln -s ~/.dotfiles/config/libvirt ~/.config/
 
 #i3 setup
 rm -rf ~/.i3 
