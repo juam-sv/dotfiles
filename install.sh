@@ -17,7 +17,9 @@ sudo pacman -S yay community/alacritty community/fish btop glances  \
       neofetch bluez bluez-utils blueman \
       pulseaudio-alsa pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack pulseaudio-lirc \
       pulseaudio-zeroconf pasystray playerctl zscroll freerdp xorg-xwininfo \
-      thunar tumbler thunar-archive-plugin thunar-volman duf gdu ansible
+      thunar tumbler thunar-archive-plugin thunar-volman duf gdu ansible \
+      extra/qemu-chardev-spice extra/qemu-ui-spice-core extra/spice extra/qemu-hw-usb-redirect \
+      extra/qemu-hw-usb-host
 
 
 # from AUR and Chaotic
