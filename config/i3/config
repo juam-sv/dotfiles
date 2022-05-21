@@ -39,18 +39,20 @@ bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 # bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 
 ## [MULTIMEDIA CONTROLS]
-#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +10%
-#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -10%
-#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
-#bindsym XF86AudioPlay exec playerctl play
-#bindsym XF86AudioPause exec playerctl pause
-#bindsym XF86AudioNext exec playerctl next
-#bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +10%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -10%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+# [PERSONAL MULTIMIDIA SHORTCUTS]
 bindsym $mod+F10 exec --no-startup-id pactl set-sink-volume 0 -10% 
 bindsym $mod+F11 exec --no-startup-id pactl set-sink-volume 0 +10% 
 bindsym $mod+F1 exec playerctl -p spotify play-pause
 bindsym $mod+F2 exec playerctl -p spotify next
-bindsym $mod+F3 exec playerctl -p spotify previous
+bindsym $mod+F3 exec playerctl -p spotify previous 
 
 focus_follows_mouse no
 
@@ -99,24 +101,24 @@ bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
 
 # Move focused container to workspace
-bindsym $mod+Ctrl+1 move container to workspace $ws1
-bindsym $mod+Ctrl+2 move container to workspace $ws2
-bindsym $mod+Ctrl+3 move container to workspace $ws3
-bindsym $mod+Ctrl+4 move container to workspace $ws4
-bindsym $mod+Ctrl+5 move container to workspace $ws5
-bindsym $mod+Ctrl+6 move container to workspace $ws6
-bindsym $mod+Ctrl+7 move container to workspace $ws7
-bindsym $mod+Ctrl+8 move container to workspace $ws8
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
 
 # Move to workspace with focused container
-bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
-bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
-bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
-bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
-bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
-bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+# bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
+# bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
+# bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
+# bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
+# bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
+# bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
+# bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
+# bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
 assign [class="firefox"] $ws1
@@ -159,6 +161,7 @@ for_window [class="Pcmanfm"] floating enable
 for_window [class="Virt-manager"] floating enable border normal
 for_window [instance="haruna"] floating enable border normal
 for_window [class="Thunar"] floating enable border normal
+for_window [class="Leafpad"] floating enable border normal
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus

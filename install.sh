@@ -19,7 +19,7 @@ sudo pacman -S yay community/alacritty community/fish btop glances  \
       pulseaudio-zeroconf pasystray playerctl zscroll freerdp xorg-xwininfo \
       thunar tumbler thunar-archive-plugin thunar-volman duf gdu ansible \
       extra/qemu-chardev-spice extra/qemu-ui-spice-core extra/spice extra/qemu-hw-usb-redirect \
-      extra/qemu-hw-usb-host
+      extra/qemu-hw-usb-host leafpad
 
 
 # from AUR and Chaotic
