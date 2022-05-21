@@ -99,5 +99,5 @@ __pycache__
 /tests/*.tmp.*
 
 #itens
-config/fish/fish_variables
-config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+fish_variables
+thunar.xml
