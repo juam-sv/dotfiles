@@ -1,0 +1,16 @@
+spotify 
+abricotine 
+notion-app-enhanced 
+google-chrome 
+freedownloadmanager 
+whatsapp-nativefier 
+visual-studio-code-bin
+nerd-fonts-fira-code 
+haruna 
+authy
+nerd-fonts-fantasque-sans-mono 
+catppuccin-gtk-theme
+nerd-fonts-complete 
+mconnect 
+redshiftgui-bin 
+catppuccin-grub-theme-git
