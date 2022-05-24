@@ -178,6 +178,13 @@ exec --no-startup-id pasystray
 exec --no-startup-id ulauncher
 exec --no-startup-id mconnect -d
 exec --no-startup-id xautolock -time 30 -locker blurlock
+
+exec --no-startup-id whatsapp-nativefier
+exec --no-startup-id thunderbird
+exec --no-startup-id telegram-desktop
+exec --no-startup-id firefox
+
+
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 # exec --no-startup-id pamac-tray
