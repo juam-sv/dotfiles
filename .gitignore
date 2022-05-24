@@ -98,8 +98,11 @@ __pycache__
 /share/pkgconfig
 /tests/*.tmp.*
 
+<<<<<<< HEAD
 #itens
 fish_variables
 thunar.xml
+=======
+>>>>>>> e279f550cdb2e5beb0a4905146d804274b76ded2
 config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
 config/fish/fish_variables
