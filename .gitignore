@@ -101,3 +101,5 @@ __pycache__
 #itens
 fish_variables
 thunar.xml
+config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+config/fish/fish_variables
