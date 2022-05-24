@@ -5,7 +5,7 @@ rm -rf ~/.gitconfig
 rm -rf ~/.config/Abricotine/app/config.json
 rm -rf ~/.config/mimeapps.list
 rm -rf ~/.redshiftgrc
-rm -rf ~/.notion-enhancer
+# rm -rf ~/.notion-enhancer
 # rm -rf ~/.config/remmina
 
 # deleting folders
@@ -31,7 +31,7 @@ ln -s ~/.dotfiles/config/haruna/haruna.conf ~/.config/haruna/haruna.conf
 ln -s ~/.dotfiles/config/vlc/vlcrc ~/.config/vlc/vlcrc
 ln -s ~/.dotfiles/config/mimeapps.list ~/.config/mimeapps.list
 ln -s ~/.dotfiles/config/.redshiftgrc ~/.redshiftgrc
-ln -s ~/.dotfiles/.notion-enhancer ~/.notion-enhancer
+# ln -s ~/.dotfiles/.notion-enhancer ~/.notion-enhancer
 
 #symb link creation for folders
 ln -s ~/.dotfiles/config/fish ~/.config
