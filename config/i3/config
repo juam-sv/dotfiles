@@ -9,7 +9,7 @@ default_floating_border normal
 hide_edge_borders none
 font JetBrainsMono Nerd Font 11
 floating_modifier $mod
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 bindsym $mod+q kill
 
 ################################################################################################
@@ -182,7 +182,7 @@ exec --no-startup-id xautolock -time 30 -locker blurlock
 exec --no-startup-id whatsapp-nativefier
 exec --no-startup-id thunderbird
 exec --no-startup-id telegram-desktop
-exec --no-startup-id firefox
+#exec --no-startup-id firefox
 
 
 exec_always --no-startup-id ff-theme-util

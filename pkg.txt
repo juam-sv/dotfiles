@@ -70,3 +70,4 @@ spice
 qemu-hw-usb-redirect
 qemu-hw-usb-host 
 leafpad
+kitty
