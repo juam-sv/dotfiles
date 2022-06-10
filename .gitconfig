@@ -1,3 +1,5 @@
 [user]
 	email = 20755569+juam-sv@users.noreply.github.com
 	name = Juam Sousa
+[pull]
+	rebase = false
