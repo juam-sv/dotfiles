@@ -2,36 +2,50 @@
     "com.github.iboyperson.ulauncher-system": {
         "id": "com.github.iboyperson.ulauncher-system",
         "url": "https://github.com/iboyperson/ulauncher-system",
-        "updated_at": "2022-05-12T16:43:06.532915",
+        "updated_at": "2022-07-02T23:40:41.877074",
         "last_commit": "667613bf7bb6b4affa4f2121b58589477cd89829",
         "last_commit_time": "2021-11-08T18:16:55"
     },
     "com.github.eckhoff42.ulauncher-bluetooth-quick-connect": {
         "id": "com.github.eckhoff42.ulauncher-bluetooth-quick-connect",
         "url": "https://github.com/Eckhoff42/Ulauncher-Bluetooth-quick-connect",
-        "updated_at": "2022-05-16T08:02:04.340970",
+        "updated_at": "2022-07-02T23:40:50.621112",
         "last_commit": "2cb1d85cdfa870888e3eeda733b63467b0966ad1",
         "last_commit_time": "2022-05-10T15:18:43"
     },
     "com.github.jyvern.ulauncher-ssh": {
         "id": "com.github.jyvern.ulauncher-ssh",
         "url": "https://github.com/jyvern/ulauncher-ssh",
-        "updated_at": "2022-05-16T08:02:06.141672",
+        "updated_at": "2022-07-02T23:41:55.195626",
         "last_commit": "47168e6ea45878787536ae5670612509f5dddced",
         "last_commit_time": "2021-08-29T16:30:14"
     },
     "com.github.isacikgoz.ukill": {
         "id": "com.github.isacikgoz.ukill",
         "url": "https://github.com/isacikgoz/ukill",
-        "updated_at": "2022-05-16T08:02:08.286888",
+        "updated_at": "2022-07-04T19:03:02.628342",
         "last_commit": "bc50d9f41d46b6813a5aeebddd15734dcdb9d8db",
         "last_commit_time": "2019-05-28T18:30:00"
     },
     "com.github.ulauncher.ulauncher-timer": {
         "id": "com.github.ulauncher.ulauncher-timer",
         "url": "https://github.com/ulauncher/ulauncher-timer",
-        "updated_at": "2022-05-16T08:02:10.308560",
+        "updated_at": "2022-07-02T23:41:34.858588",
         "last_commit": "4262fc24db08610d01ea311d2e12f22588c98886",
         "last_commit_time": "2020-11-03T07:21:30"
+    },
+    "com.github.ulauncher.ulauncher-kill": {
+        "id": "com.github.ulauncher.ulauncher-kill",
+        "url": "https://github.com/Ulauncher/ulauncher-kill",
+        "updated_at": "2022-07-03T22:50:06.620294",
+        "last_commit": "7ba3f9fb273c4cbbecd26352c88a3156205417db",
+        "last_commit_time": "2020-01-05T13:02:00"
+    },
+    "com.github.carlosmape.ulauncher-calendar": {
+        "id": "com.github.carlosmape.ulauncher-calendar",
+        "url": "https://github.com/Carlosmape/ulauncher-calendar",
+        "updated_at": "2022-07-03T22:50:44.428619",
+        "last_commit": "2bb374f43a80fcc8be83f2a9cd3fc98f75e1e916",
+        "last_commit_time": "2022-05-11T18:41:46"
     }
 }

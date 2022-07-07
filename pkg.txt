@@ -1,4 +1,3 @@
-alacritty 
 fish 
 btop 
 glances
@@ -50,9 +49,6 @@ mcfly
 gparted 
 lightdm-settings
 neofetch 
-bluez 
-bluez-utils 
-blueman
 playerctl 
 zscroll 
 freerdp 
@@ -71,3 +67,17 @@ qemu-hw-usb-redirect
 qemu-hw-usb-host 
 leafpad
 kitty
+playerctl
+pasystray
+pavucontrol 
+paprefs
+realtime-privileges 
+easyeffects
+extra/manjaro-pipewire
+firedragon
+qbittorrent
+
+bluez 
+bluez-utils 
+blueman
+alacritty 
