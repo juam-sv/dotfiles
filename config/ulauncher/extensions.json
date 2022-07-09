@@ -37,14 +37,14 @@
     "com.github.ulauncher.ulauncher-kill": {
         "id": "com.github.ulauncher.ulauncher-kill",
         "url": "https://github.com/Ulauncher/ulauncher-kill",
-        "updated_at": "2022-07-03T22:50:06.620294",
+        "updated_at": "2022-07-08T08:24:15.545554",
         "last_commit": "7ba3f9fb273c4cbbecd26352c88a3156205417db",
         "last_commit_time": "2020-01-05T13:02:00"
     },
     "com.github.carlosmape.ulauncher-calendar": {
         "id": "com.github.carlosmape.ulauncher-calendar",
         "url": "https://github.com/Carlosmape/ulauncher-calendar",
-        "updated_at": "2022-07-03T22:50:44.428619",
+        "updated_at": "2022-07-08T08:24:17.612971",
         "last_commit": "2bb374f43a80fcc8be83f2a9cd3fc98f75e1e916",
         "last_commit_time": "2022-05-11T18:41:46"
     }
