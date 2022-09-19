@@ -1,0 +1,8 @@
+minikube
+kubelet
+kubectl
+kubeadm
+asdf
+
+#minikube config set driver kvm2community/skaffold
+aur/container-structure-test
