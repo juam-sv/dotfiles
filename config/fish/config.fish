@@ -199,12 +199,15 @@ alias jctl="journalctl -p 3 -xb"
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
 ## Run paleofetch if session is interactive
-#if status --is-interactive
+# if status --is-interactive
 #   neofetch
-#end
+# end
 #starship init fish | source
 fish_add_path /home/juamsv/.spicetify
-source /opt/asdf-vm/asdf.fish
+
+if test -f /opt/asdf-vm/asdf.fish
+  source /opt/asdf-vm/asdf.fish
+end
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/tmp/google/google-cloud-sdk/path.fish.inc' ]; . '/tmp/google/google-cloud-sdk/path.fish.inc'; end
