@@ -205,3 +205,6 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 #starship init fish | source
 fish_add_path /home/juamsv/.spicetify
 source /opt/asdf-vm/asdf.fish
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/tmp/google/google-cloud-sdk/path.fish.inc' ]; . '/tmp/google/google-cloud-sdk/path.fish.inc'; end
