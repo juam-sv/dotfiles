@@ -210,4 +210,4 @@ if test -f /opt/asdf-vm/asdf.fish
 end
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/tmp/google/google-cloud-sdk/path.fish.inc' ]; . '/tmp/google/google-cloud-sdk/path.fish.inc'; end
+if [ -f '/opt/google/google-cloud-sdk/path.fish.inc' ]; . '/opt/google/google-cloud-sdk/path.fish.inc'; end
