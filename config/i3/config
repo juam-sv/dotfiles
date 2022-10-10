@@ -5,12 +5,16 @@
 set $mod Mod4
 
 default_border pixel 1
-default_floating_border normal
+# default_floating_border normal
+default_floating_border pixel 1
 hide_edge_borders none
 font JetBrainsMono Nerd Font 11
 floating_modifier $mod
 bindsym $mod+Return exec kitty
 bindsym $mod+q kill
+
+# Hide titlebars
+for_window [class="^.*"] border pixel 1
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
