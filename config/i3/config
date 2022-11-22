@@ -127,8 +127,8 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 # Open applications on specific workspaces
 assign [class="firefox"] $ws1
 # assign [instance="code"] $ws2
-assign [class="Thunderbird"] $ws3
-assign [instance="whatsapp-nativefier-d40211"] $ws3
+assign [class="thunderbird"] $ws3
+assign [instance="whatsdesk"] $ws3
 assign [instance="telegram-desktop"] $ws3
 assign [class="Spotify"] $ws4
 
@@ -183,8 +183,8 @@ exec --no-startup-id ulauncher
 exec --no-startup-id mconnect -d
 exec --no-startup-id xautolock -time 30 -locker blurlock
 
-exec --no-startup-id whatsapp-nativefier
 exec --no-startup-id thunderbird
+exec --no-startup-id whatsdesk
 exec --no-startup-id telegram-desktop
 #exec --no-startup-id firefox
 

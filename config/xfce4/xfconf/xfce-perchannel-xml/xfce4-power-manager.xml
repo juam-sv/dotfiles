@@ -26,6 +26,6 @@
     <property name="dpms-on-ac-sleep" type="uint" value="0"/>
     <property name="dpms-on-ac-off" type="uint" value="0"/>
     <property name="brightness-level-on-ac" type="uint" value="71"/>
-    <property name="general-notification" type="bool" value="true"/>
+    <property name="general-notification" type="bool" value="false"/>
   </property>
 </channel>

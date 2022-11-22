@@ -76,6 +76,7 @@ easyeffects
 extra/manjaro-pipewire
 firedragon
 qbittorrent
+community/ttf-iosevka-nerd
 
 bluez 
 bluez-utils 

@@ -14,3 +14,5 @@ nerd-fonts-complete
 mconnect 
 redshiftgui-bin 
 catppuccin-grub-theme-git
+aur/ttf-icomoon-feather 
+chaotic-aur/nerd-fonts-jetbrains-mono
