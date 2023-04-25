@@ -1,3 +1,6 @@
+[Applications][balena-etcher]
+Seen=true
+
 [Applications][balena-etcher-electron]
 Seen=true
 
@@ -28,10 +31,16 @@ ShowBadges=false
 [Applications][org.manjaro.pamac.manager]
 Seen=true
 
+[Applications][org.moson.matray]
+Seen=true
+
 [Applications][org.qbittorrent.qBittorrent]
 Seen=true
 
 [Applications][org.qbittorrent.qbittorrent]
+Seen=true
+
+[Applications][org.telegram.desktop]
 Seen=true
 
 [Applications][telegramdesktop]
@@ -40,7 +49,8 @@ Seen=true
 [Applications][thunderbird]
 Seen=true
 
-[DoNotDisturb]
+[Applications][whatsdesk]
+Seen=true
 
 [Jobs]
 PermanentPopups=false

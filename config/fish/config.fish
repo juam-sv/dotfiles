@@ -82,6 +82,14 @@ if test -d ~/Applications/depot_tools
     end
 end
 
+# Add pulumi to PATH
+if test -d ~/.pulumi/bin
+    if not contains -- ~/.pulumi/bin $PATH
+        set -p PATH ~/.pulumi/bin
+    end
+end
+
+
 
 ## Starship prompt
 #if status --is-interactive

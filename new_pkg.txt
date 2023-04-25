@@ -1,0 +1,4 @@
+# new packages for manjaro kde
+aur/whatsdesk-bin
+asdf
+locate
