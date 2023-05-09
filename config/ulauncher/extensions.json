@@ -2,56 +2,56 @@
     "com.github.iboyperson.ulauncher-system": {
         "id": "com.github.iboyperson.ulauncher-system",
         "url": "https://github.com/iboyperson/ulauncher-system",
-        "updated_at": "2022-12-06T08:40:12.792250",
+        "updated_at": "2023-04-25T19:46:18.432531",
         "last_commit": "667613bf7bb6b4affa4f2121b58589477cd89829",
         "last_commit_time": "2021-11-08T18:16:55"
     },
     "com.github.eckhoff42.ulauncher-bluetooth-quick-connect": {
         "id": "com.github.eckhoff42.ulauncher-bluetooth-quick-connect",
         "url": "https://github.com/Eckhoff42/Ulauncher-Bluetooth-quick-connect",
-        "updated_at": "2022-12-06T08:40:14.697861",
+        "updated_at": "2023-04-25T19:46:20.197745",
         "last_commit": "2cb1d85cdfa870888e3eeda733b63467b0966ad1",
         "last_commit_time": "2022-05-10T15:18:43"
     },
     "com.github.jyvern.ulauncher-ssh": {
         "id": "com.github.jyvern.ulauncher-ssh",
         "url": "https://github.com/jyvern/ulauncher-ssh",
-        "updated_at": "2022-12-06T08:40:17.005912",
+        "updated_at": "2023-04-25T19:46:21.825120",
         "last_commit": "47168e6ea45878787536ae5670612509f5dddced",
         "last_commit_time": "2021-08-29T16:30:14"
     },
     "com.github.isacikgoz.ukill": {
         "id": "com.github.isacikgoz.ukill",
         "url": "https://github.com/isacikgoz/ukill",
-        "updated_at": "2022-12-06T08:40:18.991734",
+        "updated_at": "2023-04-25T19:46:23.556287",
         "last_commit": "bc50d9f41d46b6813a5aeebddd15734dcdb9d8db",
         "last_commit_time": "2019-05-28T18:30:00"
     },
     "com.github.ulauncher.ulauncher-timer": {
         "id": "com.github.ulauncher.ulauncher-timer",
         "url": "https://github.com/ulauncher/ulauncher-timer",
-        "updated_at": "2022-12-06T08:40:20.910161",
-        "last_commit": "4262fc24db08610d01ea311d2e12f22588c98886",
-        "last_commit_time": "2020-11-03T07:21:30"
+        "updated_at": "2023-04-25T19:46:25.173091",
+        "last_commit": "2d3fe82fe1e38670e6eb8887cd2a4b4d1c2baa79",
+        "last_commit_time": "2023-03-25T08:07:41"
     },
     "com.github.ulauncher.ulauncher-kill": {
         "id": "com.github.ulauncher.ulauncher-kill",
         "url": "https://github.com/Ulauncher/ulauncher-kill",
-        "updated_at": "2022-12-06T08:40:22.754426",
+        "updated_at": "2023-04-25T19:46:26.919546",
         "last_commit": "00ffe8266dbb6c2aea7d86a6363e51cec4b1981f",
         "last_commit_time": "2022-11-26T16:15:05"
     },
     "com.github.carlosmape.ulauncher-calendar": {
         "id": "com.github.carlosmape.ulauncher-calendar",
         "url": "https://github.com/Carlosmape/ulauncher-calendar",
-        "updated_at": "2022-12-06T08:40:24.857481",
+        "updated_at": "2023-04-25T19:46:28.716697",
         "last_commit": "36e6d2f9b238a7723525522bd373a22626cf3be5",
         "last_commit_time": "2022-10-31T15:47:41"
     },
     "com.github.brpaz.ulauncher-docker": {
         "id": "com.github.brpaz.ulauncher-docker",
         "url": "https://github.com/brpaz/ulauncher-docker",
-        "updated_at": "2023-02-07T15:05:07.812129",
+        "updated_at": "2023-04-25T19:46:30.852378",
         "last_commit": "fdd7f05aa259d9bbe7bab218e9c66068edd1c46e",
         "last_commit_time": "2022-06-14T10:49:26"
     }

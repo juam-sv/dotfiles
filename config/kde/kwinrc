@@ -6,17 +6,27 @@ Id_4=a9031351-8ce9-43d7-af88-235f41088d41
 Number=4
 Rows=2
 
+[Effect-windowview]
+BorderActivateAll=9
+
 [NightColor]
 Active=true
-Mode=Constant
+Mode=Times
+NightTemperature=2200
 
 [Plugins]
 kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_maximizeEnabled=false
+kwin4_effect_scaleEnabled=false
 kwin4_effect_squashEnabled=false
 mudeer-ultrawideEnabled=true
+screenedgeEnabled=false
 slideEnabled=false
 synchronizeskipswitcherEnabled=false
+zoomEnabled=false
+
+[TabBox]
+LayoutName=thumbnail_grid
 
 [Tiling]
 padding=4
@@ -33,4 +43,3 @@ BorderlessMaximizedWindows=true
 [org.kde.kdecoration2]
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
-theme=__aurorae__svg__Colloid-dark-round
