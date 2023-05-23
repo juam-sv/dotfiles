@@ -2,7 +2,6 @@ spotify
 notion-app-enhanced
 google-chrome
 freedownloadmanager
-
 visual-studio-code-bin
 nerd-fonts-fira-code
 haruna
@@ -14,6 +13,3 @@ redshiftgui-bin
 catppuccin-grub-theme-git
 aur/ttf-icomoon-feather
 chaotic-aur/nerd-fonts-jetbrains-mono
-
-
-mconnect

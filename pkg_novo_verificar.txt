@@ -1,0 +1,2 @@
+libvirt docker vim
+anki make fd ripgrep

@@ -15,6 +15,7 @@ Mode=Times
 NightTemperature=2200
 
 [Plugins]
+desktopchangeosdEnabled=false
 kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_scaleEnabled=false
@@ -25,20 +26,23 @@ slideEnabled=false
 synchronizeskipswitcherEnabled=false
 zoomEnabled=false
 
-[TabBox]
-LayoutName=thumbnail_grid
-
 [Tiling]
 padding=4
 
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][23ca4303-ea18-5b83-9191-73ac30c6fcf9]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][525cd1cb-8f3d-5c21-bd87-c717f7e25960]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][58ca410b-ce44-58d6-82b9-fefe44aba0e3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Windows]
-BorderlessMaximizedWindows=true
+BorderlessMaximizedWindows=false
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=M

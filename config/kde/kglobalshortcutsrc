@@ -2,6 +2,7 @@
 _k_friendly_name=Activity Manager
 switch-to-activity-5f405b46-060e-4309-a5d1-41b3e7a9f8ca=none,none,Switch to activity "Default"
 switch-to-activity-7de4a9a0-01b2-4a81-86aa-1443d78bb872=none,none,Switch to activity "Default"
+switch-to-activity-c5432a12-a92f-4706-9cb8-f35ec137b8d4=none,none,Switch to activity "Default"
 switch-to-activity-c97b34e3-51ca-4a96-9c18-7b679bfc5000=none,none,Switch to activity "Default"
 
 [Alacritty.desktop]
@@ -421,9 +422,8 @@ activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 20=none,none,Activate Digital Clock Widget
-activate widget 26=none,none,Activate Task Manager Widget
+activate widget 27=none,none,Activate Task Manager Widget
 activate widget 3=Alt+F1,none,Activate Application Launcher Widget
-activate widget 4=none,none,Activate Application Launcher Widget
 activate widget 5=none,none,Activate Icons-only Task Manager Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Meta+Ctrl+X,Automatic Action Popup Menu

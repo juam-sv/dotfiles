@@ -9,15 +9,6 @@ desktopsrule=3
 wmclass=dolphin
 wmclassmatch=1
 
-[1]
-Description=Application settings for spotify
-desktops=48679cee-1f44-4bb2-9292-f5e69e191ac6
-desktopsrule=3
-maximizehorizrule=3
-maximizevertrule=3
-wmclass=spotify
-wmclassmatch=1
-
 [2]
 Description=Application settings for spotify
 desktops=48679cee-1f44-4bb2-9292-f5e69e191ac6
@@ -50,7 +41,3 @@ desktops=48f0d42b-fea2-407e-be94-a7ff2293f180
 desktopsrule=3
 wmclass=whatsapp-nativefier-d40211
 wmclassmatch=1
-
-[General]
-count=1
-rules=1
